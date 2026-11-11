@@ -1,6 +1,6 @@
 .Cabecalho_root {
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: var(--preto);
+    color: var(--branco);
     display: flex;
     align-items: center;
     justify-content: center;

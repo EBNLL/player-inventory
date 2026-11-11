@@ -20,3 +20,11 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+:root {
+    --cinza: #272727;
+    --preto: #000000;
+    --roxo1: #71395F;
+    --amarelo: #D4BE76;
+    --branco: #FFFFFF;
+}
