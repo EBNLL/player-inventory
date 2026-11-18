@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap');
+
+.Cabecalho_root {
+  background-color: var(--preto);
+  color: var(--branco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 8px;
+  border-top: 2px solid var(--branco);
+  border-bottom: 2px solid var(--branco);
+  font-family: 'Inria Serif', serif;
+  font-size: 24px;
+}
+

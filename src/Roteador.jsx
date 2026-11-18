@@ -1,14 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import PaginaInicial from "./Paginas/PaginaInicial";
-
-
-
+import PaginaInicial from "./Paginas/PaginaInicial/PaginaInicial";
 
 const roteador = createBrowserRouter([
   {
     path: "",
-    element: <PaginaInicial />
-  }
+    element: <PaginaInicial />,
+  },
 ]);
 
 function Roteador() {

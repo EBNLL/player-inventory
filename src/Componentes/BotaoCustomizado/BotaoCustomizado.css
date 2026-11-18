@@ -1,0 +1,17 @@
+.BotaoCustomizado_root {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.BotaoCustomizado_primario {
+  background-color: var(--roxo1);
+  color: var(--branco);
+}
+
+.BotaoCustomizado_secundario {
+  border: 2px solid var(--preto);
+  background-color: var(--cinza);
+  color: var(--branco);
+}

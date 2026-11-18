@@ -1,0 +1,11 @@
+.Barra_root {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Barra_input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}

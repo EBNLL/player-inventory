@@ -1,0 +1,8 @@
+.input_pagReview {
+    display: flex;
+    color: var(--branco);
+    padding: 180px 110px;
+    background-color: var(--cinza);
+    border: 2px solid black;
+    border-radius: 10px;
+}
