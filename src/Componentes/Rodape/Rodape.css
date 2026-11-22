@@ -6,4 +6,9 @@
   color: var(--branco);
   font-size: 12px;
 }
-
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  font-size: 28px;
+}

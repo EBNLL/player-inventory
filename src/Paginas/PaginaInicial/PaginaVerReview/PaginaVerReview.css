@@ -1,0 +1,49 @@
+
+.Review_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #292929;
+  border-bottom: 1px solid #111;
+  box-sizing: border-box;
+  color: white;
+}
+
+.Review_item p {
+  flex: 1;
+  margin: 0;
+  color: #e0e0e0;
+  font-size: 13px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.Review_acoes {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.Review_acoes svg {
+  cursor: pointer;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.Review_acoes svg:hover {
+  transform: scale(1.15);
+  color: #b65a99;
+}
+
+.Review_acoes svg:last-child {
+  color: #e74c3c;
+}
+
+.Review_acoes svg:last-child:hover {
+  color: #ff7777;
+}

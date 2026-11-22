@@ -10,7 +10,6 @@ function App() {
     <>
       <Cabecalho />
       <Roteador />
-      <Rodape />
     </>
   );
 }
